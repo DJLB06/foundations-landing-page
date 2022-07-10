@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.header{
+    display: flex;
+    
+}
+
+.right-links{
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+}
+.footer{
+    margin-top: auto;
+}
+
+ul{
+    list-style-type: none;
+}
