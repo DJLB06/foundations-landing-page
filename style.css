@@ -14,8 +14,13 @@ body{
     display: flex;
     flex-direction: column;
 }
+
 .footer{
     margin-top: auto;
+}
+
+button{
+    color: #3882F6;
 }
 
 ul{
