@@ -15,6 +15,20 @@ body{
     flex-direction: column;
 }
 
+.info-header{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.block-container{
+    display: flex;
+    gap: 25px;
+}
+
 .footer{
     margin-top: auto;
 }
