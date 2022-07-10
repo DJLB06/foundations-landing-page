@@ -1,1 +1,1 @@
-# foundaints-landing-page
+# foundations-landing-page
