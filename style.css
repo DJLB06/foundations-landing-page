@@ -6,27 +6,28 @@ body{
 
 .container{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     flex:1;
     margin-bottom: 20px;
+    flex-direction: column;
 }
 
 .header{
     display: flex;
-    
+    margin-bottom: 25px;
 }
 
 .awesome{
     display: flex;
     justify-content: center;
     align-items: center;
+   
 }
 
 .right-links{
     margin-left: auto;
-    
     display: flex;
-    flex-direction: column;
+     
 }
 
 .info-header{
@@ -83,4 +84,6 @@ button{
 
 ul{
     list-style-type: none;
+    display: flex;
+    gap: 15px;
 }
