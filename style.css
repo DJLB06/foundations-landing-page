@@ -10,24 +10,30 @@ body{
     flex:1;
     margin-bottom: 20px;
     flex-direction: column;
+    background-color: #1F2938;
 }
 
 .header{
     display: flex;
-    margin-bottom: 25px;
+    margin: 20px;
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .awesome{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 50px;
    
 }
 
 .right-links{
     margin-left: auto;
-    display: flex;
-     
+    
 }
 
 .info-header{
@@ -60,6 +66,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #E5E7EB;
 }
 
 .sign-up{
@@ -75,6 +82,7 @@ body{
     align-items: center;
     margin-top: auto;
     height: 75px;
+    background-color: #1F2938;
   
 }
 
@@ -85,5 +93,6 @@ button{
 ul{
     list-style-type: none;
     display: flex;
-    gap: 15px;
+    gap:15px;
+    font-size: 14px;  
 }
