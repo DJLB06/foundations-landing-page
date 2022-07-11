@@ -2,6 +2,7 @@ body{
     display: flex;
     flex-direction: column;
     height: 100vh;
+    margin: 0;
 }
 
 .container{
@@ -11,6 +12,7 @@ body{
     margin-bottom: 20px;
     flex-direction: column;
     background-color: #1F2938;
+    min-height: 350px;
 }
 
 .header{
@@ -47,18 +49,21 @@ body{
 
 .information{
     flex: 1;
+    min-height: 350px;
+    
 }
 
-.block-container{
-   
+.block-container{   
     display: flex;
-    gap: 25px;
-    align-items: auto;   
+    gap: 50px;
+    align-items: center;
+    justify-content: center;   
 }
 
 .block{
     text-align: center;
     align-items: auto;
+    max-width: 200px;
 }
 
 .quote{
@@ -67,6 +72,8 @@ body{
     justify-content: center;
     align-items: center;
     background-color: #E5E7EB;
+    min-height: 350px;
+   
 }
 
 .sign-up{
@@ -74,6 +81,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 250px;
 }
 
 .footer{
@@ -83,7 +91,7 @@ body{
     margin-top: auto;
     height: 75px;
     background-color: #1F2938;
-  
+    color: #F9FAF8;
 }
 
 button{
@@ -95,4 +103,9 @@ ul{
     display: flex;
     gap:15px;
     font-size: 14px;  
+}
+
+.information img{
+    border-radius: 15px;
+    border: 2px solid #3882F6;
 }
