@@ -102,9 +102,13 @@ body{
 }
 
 .call-to-action{
+    display: flex;
+    align-content:space-between;
     background-color: #3882F6;
     padding: 40px 175px;
     border-radius: 5px;
+    color: white;
+    gap: 100px;
 }
 
 .footer{
@@ -123,10 +127,11 @@ button{
     color: white;
     border-radius: 5px;
     padding: 5px 10px;
-    border: none;
+   
 }
+
 .sign-up button{
-    border: white;
+    border: 2px solid white;
 }
 
 ul{
